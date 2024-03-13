@@ -6,7 +6,7 @@ export const Menu2 = [
   {
     id: "fc1",
     cover: F1,
-    name: "Coock without fire",
+    name: "Cook without fire",
     link: "https://drive.google.com/file/d/1YZBQUzaox5fLpgXA6rv9ivGux6_cEBra/view?usp=sharing",
   },
   {

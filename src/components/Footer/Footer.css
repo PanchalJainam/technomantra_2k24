@@ -1,7 +1,13 @@
-.ft_main {
+.footer-main {
+  background-color: #393a3a4d;
+  font-family: Poppins;
+  width: 100%;
+}
+
+.footer-main .ft_main {
   display: flex;
   gap: 25px;
-  width: 95%;
+  height: 100%;
   margin-top: 10rem;
   padding-bottom: 30px;
   color: #ffffff;
@@ -22,13 +28,15 @@
 }
 
 .ft_logo img {
-  width: 160px;
-  height: 180px;
+  width: 290px;
+  height: 200px;
+  margin-left: -40px;
+  margin-top: 3rem;
 }
 
 .ft_logo2 img {
-  width: 180px;
-  height: 180px;
+  width: 120px;
+  height: 120px;
   border-radius: 5px;
   margin: 10px 10px;
 }
@@ -39,16 +47,16 @@
 }
 
 .tech_list h2 {
-  padding: 5px 0;
   color: orange;
+  margin-top: 3rem;
+  padding-bottom: 30px;
 }
 
 .social_icon {
   display: flex;
   justify-content: space-evenly;
-
-  padding: 10px 0px;
   font-size: 45px;
+  gap: 20px;
   color: white;
 }
 
@@ -64,8 +72,14 @@
 } */
 
 .non_tech_list h2 {
-  padding: 5px 0;
   color: orange;
+  margin-top: 3rem;
+  padding-bottom: 30px;
+}
+.non_tech_list p {
+  line-height: 25px;
+  align-items: center;
+  justify-content: center;
 }
 
 .non_tech_list ul li {
@@ -81,25 +95,29 @@
 .cpright {
   text-align: center;
   padding: 10px 0;
-  width: 95%;
+  width: 100%;
   margin: auto;
-  border-image: linear-gradient(45deg, #cb3cf6, #3e48f9, #8834a1) 30;
-  border-style: solid;
+  background-color: #ffffff;
+
+  /* border-image: linear-gradient(45deg, #cb3cf6, #3e48f9, #8834a1) 30;
+  border-style: solid; */
   margin-bottom: 20px;
+}
+.cpright .copyright {
+  color: #00161b;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .ft_links ul li {
   padding-bottom: 15px;
-  margin: 10px 10px;
+  margin: 3px 0px;
+  font-weight: 600;
 }
 .ft_links h2 {
   color: orange;
-  margin: 10px 0px;
-}
-
-footer {
-  /* padding: 0px 6px; */
-  font-family: Poppins;
+  margin-top: 3rem;
+  padding-bottom: 30px;
 }
 
 .container h2 {
@@ -235,10 +253,23 @@ footer {
     margin-top: 20px;
   }
   .non_tech_list h2 {
-    padding: 9px 42px;
+    text-align: center;
     color: orange;
+    margin: 0px;
   }
   .social_icon {
     margin-top: 30px;
+  }
+  .non_tech_list p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .ft_logo2 img {
+    margin: 13px 110px;
+  }
+  .ft_logo img {
+    margin-top: 2rem;
+    margin-left: 0px;
+    margin-bottom: 0px;
   }
 }

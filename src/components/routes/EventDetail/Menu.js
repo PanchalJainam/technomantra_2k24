@@ -56,7 +56,7 @@ export const Menu = [
   {
     id: "fc8",
     cover: Eight,
-    name: "Poster Makinbg",
+    name: "Poster Making",
     link: "https://drive.google.com/file/d/1qZ-PxKVMctLwTzxzTlth_f7WWlI0u1Gw/view?usp=sharing",
   },
   {

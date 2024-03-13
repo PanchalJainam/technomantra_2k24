@@ -7,7 +7,7 @@ const About = () => {
       <div className="about-main ">
         <i class="fa-light fa-left-long"></i>
         <div className="about-second">
-          <h1>ABOUT US</h1>
+          <h1>ABOUT EVENT</h1>
         </div>
         <div className="abt-para">
           <p>

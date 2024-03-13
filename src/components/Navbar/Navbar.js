@@ -46,19 +46,31 @@ const Navbar = () => {
         </Link>
         <ul className={menuOpen ? "nav-menu active" : "nav-menu"}>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" onClick={() => setMenuOpen(false)}>
+              Home
+            </Link>
             <Link></Link>
           </li>
           <li>
-            <Link to="/about" smooth={true} offset={200} duration={500}>
+            <Link
+              to="/about"
+              onClick={() => setMenuOpen(false)}
+              smooth={true}
+              offset={200}
+              duration={500}
+            >
               About
             </Link>
           </li>
           <li>
-            <Link to="/events">Events</Link>
+            <Link to="/events" onClick={() => setMenuOpen(false)}>
+              Events
+            </Link>
           </li>
           <li>
-            <Link to="/gallery">Gallery</Link>
+            <Link to="/gallery" onClick={() => setMenuOpen(false)}>
+              Gallery
+            </Link>
           </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>

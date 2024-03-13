@@ -44,7 +44,7 @@ const FooterNew = () => {
                 <FaInstagram />
               </p>
             </Link>
-            <Link to="">
+            <Link to="https://www.linkedin.com/in/placecom-ks-8a0a961b6/">
               <p>
                 <FaLinkedin />
               </p>

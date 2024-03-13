@@ -29,7 +29,11 @@ const Event = () => {
         <div className="container">
           <div className="grid5" style={{ marginTop: "2rem" }}>
             {Menu2.map((items, index) => (
-              <div className="box" key={index}>
+              <div
+                className="box"
+                key={index}
+                onClick={() => window.location.assign(items?.link)}
+              >
                 <img src={items.cover} alt="" />
                 <h4 className="lab-h4">{items.name}</h4>
                 <label>{items.total}</label>

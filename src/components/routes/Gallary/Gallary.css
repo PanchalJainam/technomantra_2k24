@@ -1,0 +1,94 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.gallary-main {
+  padding-top: 60px;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  padding-top: 6rem;
+}
+.gallary-main h1 {
+  color: white;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 45px;
+}
+
+.gallary-main p {
+  color: rgb(255, 153, 0);
+  font-weight: 600;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  padding-top: 1rem;
+}
+
+.slide img {
+  width: 30rem;
+  margin: 0 auto;
+  padding: 100px 0px;
+}
+
+.slide {
+  transform: scale(0.9);
+  transition: transform 300ms;
+  opacity: 0.5;
+}
+
+.activeSlide {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.arrow {
+  color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 0;
+  margin: 10px 10px;
+}
+
+.arrow svg {
+  transition: color 300ms;
+}
+
+.arrow svg:hover {
+  color: #ffffff;
+}
+
+.next {
+  right: 0%;
+  top: 50%;
+}
+
+.prev {
+  left: 0%;
+  top: 50%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 730px) {
+  .slide img {
+    width: 18rem;
+    margin: -21px -76px;
+    padding: 101px 5px;
+  }
+
+  .slide {
+    transform: scale(0.5);
+    transition: transform 300ms;
+    opacity: 0.1;
+  }
+
+  .activeSlide {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  .arrow {
+    display: none;
+  }
+}

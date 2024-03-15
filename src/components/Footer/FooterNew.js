@@ -51,7 +51,7 @@ const FooterNew = () => {
                   <FaLinkedin />
                 </p>
               </Link>
-              <Link to="https://www.linkedin.com/in/placecom-ks-8a0a961b6/">
+              <Link to="https://www.facebook.com/profile.php?id=61557543353026&mibextid=ZbWKwL">
                 <p>
                   <FaFacebookSquare />
                 </p>
